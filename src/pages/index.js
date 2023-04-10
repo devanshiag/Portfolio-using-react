@@ -59,8 +59,8 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I am an avid lover of <span className="text-teal-500">books</span> and 
-            <span className="text-teal-500"> art</span>, and this passion for books is driven by an insatiable curiosity about the world, 
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I am an avid lover of <span className="text-teal-500">technology</span> and 
+            <span className="text-teal-500"> art</span>, and this passion is driven by an insatiable curiosity about the world, 
             past and present. They make me think, reflect, and unlearn the existing notion of society and then relearn and shift my perspective 
             towards it from time to time.
             </p>
@@ -82,29 +82,18 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl dark:bg-white flex-1">
-              <center><Image src={consulting} width={100} height={100} /></center>
-              <h3 className="text-lg font-medium pt-8 pb-2">Consulting</h3>
-              <p className="py-2">
-                Creating elegant designs suited for your needs following core design theories.
-              </p>
-              <h4 className="py-4 text-teal-600">Design tools i use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
-            </div>
+            
             <div className="text-center shadow-lg p-10 rounded-xl dark:bg-white flex-1">
               <center><Image src={code} width={100} height={100} /></center>
               <h3 className="text-lg font-medium pt-8 pb-2">Coding</h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core design theories.
+                Creating quality code for clients according to business requirements.
               </p>
-              <h4 className="py-4 text-teal-600">Design tools i use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Languages i speak</h4>
+              <p className="text-gray-800 py-1">Python</p>
+              <p className="text-gray-800 py-1">Java</p>
+              <p className="text-gray-800 py-1">HTML</p>
+              <p className="text-gray-800 py-1">Javascript</p>
             </div>
           </div>
         </section>
